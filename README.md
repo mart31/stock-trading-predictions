@@ -19,9 +19,11 @@ The entire application can be split into two parts: the online and offline syste
 This section explains at a high level the functions of the different modules. 
 
 **The feed modules**
+
 The feed modules pull the required data from IQFEED (a subscription-based stock data provider). Five different types of data are needed: news data, stock summary data, historical data, live tick data and live depth data. Note the five feed modules rely heavily on the pyiqfeed package, which can be found here: https://github.com/akapur/pyiqfeed
 
 **The database manager modules**
+
 The raw data provided by the feed modules need to be properly indexed and modified to be of any use. The db_updater pulls the data from the different data feed, indexes the data using the date_manager, creates the features using features_creator and then sends the output to db_manager to be saved for later use. 
 
 All the data are saved in specific SQLite files. The module db_histo_manager contains the class db_manager, which comprises all the functions required to save, download and filter the data from the different SQLite databases. 
