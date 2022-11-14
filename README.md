@@ -19,7 +19,6 @@ The entire application can be split into two parts: the online and offline syste
 This section explains at a high level the functions of the different modules. 
 
 **The feed modules**
-
 The feed modules pull the required data from IQFEED (a subscription-based stock data provider). Five different types of data are needed: news data, stock summary data, historical data, live tick data and live depth data. Note the five feed modules rely heavily on the pyiqfeed package, which can be found here: https://github.com/akapur/pyiqfeed
 
 **The database manager modules**
