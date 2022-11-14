@@ -1,0 +1,161 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Jul 25 10:34:00 2021
+
+@author: marti
+"""
+
+
+
+class live_object():
+    def __init__(self):
+        
+        self.features = self.create_features_1m()
+        self.features_390m = self.create_features_390m()
+        
+    def create_features_1m(self):
+        feat = ['date','open','high','low','close','volume','barCount','average','ticker','average_cash','gains']
+        
+    
+        feat.append('gains3')
+        feat.append('gains5')
+        feat.append('gains10')
+        feat.append('gains20')
+        
+        feat.append('avg_gain')
+        feat.append('avg_loss')
+        feat.append('RSI')
+        feat.append('d1_ema3_RSI')
+        feat.append('d2_ema3_RSI')
+        
+        feat.append('normalize_bb')
+        feat.append('d1_ema3_bb')
+        feat.append('d2_ema3_bb')
+       
+        feat.append('ema12')
+        feat.append('ema26')
+        feat.append('PPO_line')
+        feat.append('d1_ema3_PPO_line')
+        feat.append('d2_ema3_PPO_line')
+        feat.append('signal_line')
+        feat.append('PPO_histo')
+        feat.append('d1_ema3_PPO_histo')
+        feat.append('d2_ema3_PPO_histo')
+       
+        feat.append('ema13_cash')
+        feat.append('d1_ema13_cash')
+        feat.append('d2_ema13_cash')
+        
+        feat.append('candle_shape')
+        feat.append('candle_range')
+        
+        feat.append('ema13_range')
+        feat.append('d1_ema13_range')
+        feat.append('d2_ema13_range') # 41 features up to that point
+        feat.append('hl_range20')
+        
+      
+        feat.append('overnight_candle')
+        feat.append('vwap')
+        feat.append('vwap_ratio')
+        feat.append('no_trade_count')
+        feat.append('green_line')
+            
+        
+        feat.append('pred_high20')
+        feat.append('pred_low20')
+        feat.append('pred_hl_ratio20')
+        feat.append('pred_ng20')
+        feat.append('hl_ratio')
+        
+        return feat
+    
+
+    
+    def add_intraday_daily(self,feat):
+        
+        feat.append('previous_gains')
+        
+        feat.append('daily_avg_gain')
+        feat.append('daily_avg_loss')
+        feat.append('daily_RSI')
+        feat.append('daily_d1_ema3_RSI')
+        feat.append('daily_d2_ema3_RSI')
+        
+        feat.append('daily_normalize_bb')
+        feat.append('daily_d1_ema3_bb')
+        feat.append('daily_d2_ema3_bb')
+        
+        feat.append('daily_ema12')
+        feat.append('daily_ema26')
+        feat.append('daily_PPO_line')
+        feat.append('daily_d1_ema3_PPO_line')
+        feat.append('daily_d2_ema3_PPO_line')
+        
+        feat.append('daily_signal_line')
+        feat.append('daily_PPO_histo')
+        feat.append('daily_d1_ema3_PPO_histo')
+        feat.append('daily_d2_ema3_PPO_histo')
+        
+        feat.append('daily_vwap_ratio')
+        feat.append('time_index')
+
+                
+
+       
+    def create_features_390m(self):    
+        
+        feat = ['date','open','high','low','close','volume','barCount','average','ticker','average_cash','gains']
+        feat.append('avg_gain')
+        feat.append('avg_loss')
+        feat.append('RSI')
+        feat.append('d1_ema3_RSI')
+        feat.append('d2_ema3_RSI')
+        
+        feat.append('normalize_bb')
+        feat.append('d1_ema3_bb')
+        feat.append('d2_ema3_bb')
+       
+        feat.append('ema12')
+        feat.append('ema26')
+        feat.append('PPO_line')
+        feat.append('d1_ema3_PPO_line')
+        feat.append('d2_ema3_PPO_line')
+        feat.append('signal_line')
+        feat.append('PPO_histo')
+        feat.append('d1_ema3_PPO_histo')
+        feat.append('d2_ema3_PPO_histo')
+       
+        feat.append('ema13_cash')
+        feat.append('d1_ema13_cash')
+        feat.append('d2_ema13_cash')
+        feat.append('ema13_barcount')
+        feat.append('d1_ema13_barcount')
+        feat.append('d2_ema13_barcount')
+        feat.append('cash_ratio')
+        feat.append('barcount_ratio')
+        
+        feat.append('candle_shape')
+        feat.append('candle_range')
+        feat.append('ema13_range')
+        feat.append('d1_ema13_range')
+        feat.append('d2_ema13_range') # 41 features up to that point
+        
+        feat.append('trade_ratio')
+        feat.append('friday')
+        feat.append('vwap')
+        feat.append('vwap_ratio')
+        feat.append('ema13_oc_gains')
+        feat.append('d1_ema13_oc_gains')
+        feat.append('oc_gains')
+        
+        feat.append('pred_next_gain')
+        feat.append('pred_next_oc')
+        feat.append('pred_next_high')
+        feat.append('pred_next_low')
+        #feat.append('hl_ratio')
+        feat.append('pred_hl_ratio')
+        
+        return feat     
+       
+
