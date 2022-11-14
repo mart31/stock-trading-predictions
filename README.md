@@ -46,4 +46,5 @@ The live data modules comprise live_feed, features_creator,freedom_app, and the 
 **The graphical user interfaces**
 
 Scanner_gui pull the data row from the live database and sort them in an easy-to-read manner. 
-https://github.com/mart31/stock-trading-predictions/blob/main/scanner_gui.png
+
+![scanner_gui](https://user-images.githubusercontent.com/16655278/201759394-b093d240-e1d4-4268-8cab-a840ee4f074d.png)
