@@ -45,6 +45,6 @@ The live data modules comprise live_feed, features_creator,freedom_app, and the 
 
 **The graphical user interfaces**
 
-Scanner_gui pulls and sorts the data row from the live database, as seen in the image below. 
+Scanner_gui pulls and sorts the data row from the live database and displays it to the scanner user interface, as seen in the image below.
 
 ![scanner_gui](https://user-images.githubusercontent.com/16655278/201759394-b093d240-e1d4-4268-8cab-a840ee4f074d.png)
