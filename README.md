@@ -66,11 +66,11 @@ In the top three tables, multiple features are displayed. From left to right:
 **ema_cash:** The exponential moving average cash from the last 13 minutes.   
 **avg_cash:** The total cash traded during the last minute.   
 **price:** The closing price of the last minute.   
-**range:** The predicted difference from the high and low price point, in percent, of the next 20 minutes.   
-**p_high20:** the predicted high price in percent from the actual price in the next 20 minutes.   
-**hl_ratio:** The predicted tendency, in percent, of the next 20 minutes.   
+**range:** The predicted difference from the high and low price point, as a ratio, of the next 20 minutes.   
+**p_high20:** the predicted high price as a ratio to the actual price in the next 20 minutes.   
+**hl_ratio:** The predicted tendency, as a ratio, of the next 20 minutes.   
 **p_hl20:** Same as hl_ratio but used a specific model to calculate that number.  
-**ng20:** Prediction of the price in 20 minutes again in percent.  
+**ng20:** Prediction of the price in 20 minutes again as a ratio.  
 
 The ticker graphical user interface is shown below.
 
