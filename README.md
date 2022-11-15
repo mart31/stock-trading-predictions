@@ -49,7 +49,7 @@ Scanner_gui pulls and sorts the data row from the live database and displays it 
 
 ![scanner_gui](https://user-images.githubusercontent.com/16655278/201759394-b093d240-e1d4-4268-8cab-a840ee4f074d.png)
 
-Multiple features are displayed. From left to right: 
+Multiple features are displayed. From left to right: \n
 ticker: open a ticker GUI.
 ema_cash: The exponential moving average cash from the last 13 minutes.
 avg_cash: The total cash traded in the last minute
