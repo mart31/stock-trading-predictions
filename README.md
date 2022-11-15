@@ -74,3 +74,5 @@ The ticker graphical user interface is shown below.
 The ticker GUI adds some important information that is not included in the scanner GUI, specific to the requested ticker. Notably, it enables us to visualize the candlestick graph, the level 2 bid and ask tables, the level 2 summary and the latest trades in near real-time. 
 
 
+**The depth modules**    
+The live system monitors the tick data of 490 stocks in real time. However, my current computer can only handle the live depth data of at most 30 stocks. Since the depth data is only displayed in the ticker GUI, the scanner GUI continuously updates which ticker requires the live depth data through depth_watchlist. The module depth_feed updates every 4 seconds, which ticker it should be watching and then send the data to depth_data, which prepare the depth data to be used by the GUI. 
