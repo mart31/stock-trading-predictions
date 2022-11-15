@@ -50,7 +50,7 @@ Scanner_gui pulls and sorts the data row from the live database and displays it 
 ![scanner_gui](https://user-images.githubusercontent.com/16655278/201759394-b093d240-e1d4-4268-8cab-a840ee4f074d.png)
 
 The scanner interface includes four tables. 
-**The top table** sorts the row according to their predicted range. These are the stocks, sorted from top to bottom, where potential picks are predicted to occur. The values are updated every minute.    
+**The top table** sorts the row according to their predicted range. These are the stocks, sorted from top to bottom, where potential picks are predicted to occur. The values are updated every minute.         
 **The second table** sorts the row according to the selected target. The values are updated every minute.    
 **The third table** shows the selected target's approximated predictions for the next minute. The values are updated every second      
 **The fourth table** shows the latest headlines from the watchlist. The headlines are updated every minute.   
