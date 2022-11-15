@@ -52,10 +52,16 @@ Scanner_gui pulls and sorts the data row from the live database and displays it 
 Multiple features are displayed. From left to right:    
 **ticker:** Display the ticker and is also a button which opens the specific ticker GUI.   
 **ema_cash:** The exponential moving average cash from the last 13 minutes.   
-**avg_cash:** The total cash traded in the last minute.    
+**avg_cash:** The total cash traded during the last minute.    
 **price:** The closing price of the last minute.    
 **range:** The predicted difference from the high and low price point, in percent, of the next 20 minutes.     
 **p_high20:** the predicted high price in percent from the actual price in the next 20 minutes.    
 **hl_ratio:** The predicted tendency, in percent, of the next 20 minutes.   
 **p_hl20:** Same as hl_ratio but used a specific model to calculate that number.    
-**ng20:** Prediction of the price in 20 minutes again in percent.     
+**ng20:** Prediction of the price in 20 minutes again in percent.
+
+The ticker graphical user interface is shown below.
+
+![ticker gui](https://user-images.githubusercontent.com/16655278/201955465-ef825ea7-7bdc-43b9-b967-6d7c5077edc6.png)
+
+
