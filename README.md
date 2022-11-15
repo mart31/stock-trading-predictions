@@ -71,4 +71,6 @@ The ticker graphical user interface is shown below.
 
 ![ticker gui](https://user-images.githubusercontent.com/16655278/201955465-ef825ea7-7bdc-43b9-b967-6d7c5077edc6.png)
 
+The ticker GUI enables us to visualize the candlestick graph, the level 2 bid and ask tables, the level 2 summary and the latest trades. 
+
 
