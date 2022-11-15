@@ -49,16 +49,23 @@ Scanner_gui pulls and sorts the data row from the live database and displays it 
 
 ![scanner_gui](https://user-images.githubusercontent.com/16655278/201759394-b093d240-e1d4-4268-8cab-a840ee4f074d.png)
 
-Multiple features are displayed. From left to right:    
-**ticker:** Display the ticker and is also a button which opens the specific ticker GUI.   
+The scanner interface includes four tables. 
+**The top table** sorts the row according to their predicted range. These are the stocks, sorted from top to bottom, where potential picks are predicted to occur. The values are updated every minute.    
+**The second table** sorts the row according to the selected target. The values are updated every minute.    
+**The third table** shows the selected target's approximated predictions for the next minute. The values are updated every second      
+**The fourth table** shows the latest headlines from the watchlist. The headlines are updated every minute.   
+
+
+In the top three tables, multiple features are displayed. From left to right:   
+**ticker:** Display the ticker and is also a button which opens the specific ticker GUI.    
 **ema_cash:** The exponential moving average cash from the last 13 minutes.   
-**avg_cash:** The total cash traded during the last minute.    
-**price:** The closing price of the last minute.    
-**range:** The predicted difference from the high and low price point, in percent, of the next 20 minutes.     
-**p_high20:** the predicted high price in percent from the actual price in the next 20 minutes.    
+**avg_cash:** The total cash traded during the last minute.   
+**price:** The closing price of the last minute.   
+**range:** The predicted difference from the high and low price point, in percent, of the next 20 minutes.   
+**p_high20:** the predicted high price in percent from the actual price in the next 20 minutes.   
 **hl_ratio:** The predicted tendency, in percent, of the next 20 minutes.   
-**p_hl20:** Same as hl_ratio but used a specific model to calculate that number.    
-**ng20:** Prediction of the price in 20 minutes again in percent.
+**p_hl20:** Same as hl_ratio but used a specific model to calculate that number.  
+**ng20:** Prediction of the price in 20 minutes again in percent.  
 
 The ticker graphical user interface is shown below.
 
