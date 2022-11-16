@@ -33,7 +33,7 @@ All the data are saved in specific SQLite files. The module db_histo_manager con
 
 **The training modules**
 
-I decided to use XGboost as the predictive model. The train_live_model module uses historical data (more than 10 million data rows) to train the models  used for the live predictions. The last three weeks of data are used as a validation set. Four main models are being used, each with a different target. They all predict attributes from the price, as a ratio from the current price, 20 minutes in the future. The four targets are:    
+I decided to use XGboost as the predictive model. The train_live_model module uses historical data (using 22 893 737 data rows) to train the models  used for the live predictions. The last three weeks of data are used as a validation set. Four main models are being used, each with a different target. They all predict attributes from the price, as a ratio from the current price, 20 minutes in the future. The four targets are:    
 
 **highest_ng20,** which is the highest price ratio that will be reached in the next 20 minutes   
 **lowest_ng20,** which is the lowest price ratio of the next 20 minutes   
