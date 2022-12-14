@@ -8,7 +8,7 @@ This project is an end-to-end system (15 057 lines of code) used to forecast the
 
 
 
-1. System Summary
+# 1. System Summary
 
 The system architecture at the component level is shown below.
 
