@@ -1,9 +1,16 @@
-# stock-trading-predictions
-This project is an end-to-end system (15057 lines of code) used to forecast the price of stocks 20 minutes in advance. 
+# Stock Trading Predictions
+This project is an end-to-end system (15 057 lines of code) used to forecast the price of stocks 20 minutes in advance. This section is broken into 4 parts:
 
-# Summary
+1. System Summary
+2. Model Performance
+3. Live Trading
+4. Technical Overview
+
+
+1. System Summary
 
 The system architecture at the component level is shown below.
+
 ![system dataflow](https://user-images.githubusercontent.com/16655278/201698488-6dfbbc70-b290-4b4d-aece-1be117cb8406.png)
 
 Note the features_creator module has been purposely omitted from the uploaded files. 
