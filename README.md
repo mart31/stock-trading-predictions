@@ -10,9 +10,10 @@ This project is an end-to-end system (15 057 lines of code) used to forecast the
 
 # 1. System Summary
 
-The system architecture at the component level is shown below.
+The system architecture summary is shown below.
 
-![system dataflow](https://user-images.githubusercontent.com/16655278/201698488-6dfbbc70-b290-4b4d-aece-1be117cb8406.png)
+![System summary](https://user-images.githubusercontent.com/16655278/207881068-2f55d6ce-02cd-471d-9878-ba3cb530706a.png)
+
 
 Note the features_creator module has been purposely omitted from the uploaded files. 
 
@@ -59,7 +60,9 @@ Based on my live trade analysis, I was able to catch roughly 25% of the trade fl
 
 
 # 4. Technical Overview
-This section explains at a high level the functions of the different modules. 
+This section explains at a high level the functions of the different modules. The system architecture is shown below.
+
+![system dataflow](https://user-images.githubusercontent.com/16655278/207881305-d0b61282-ab4b-4d66-8b72-62035f246240.png)
 
 **The feed modules**
 
