@@ -12,7 +12,8 @@ This project is an end-to-end system (15 057 lines of code) used to forecast the
 
 The system architecture summary is shown below.
 
-![System summary](https://user-images.githubusercontent.com/16655278/207881068-2f55d6ce-02cd-471d-9878-ba3cb530706a.png)
+![System summary](https://user-images.githubusercontent.com/16655278/207883122-958ae94a-05ba-4fc3-98b4-eca545b0d71a.png)
+
 
 
 Note the features_creator module has been purposely omitted from the uploaded files. 
