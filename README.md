@@ -10,7 +10,7 @@ This project is an end-to-end system (15 057 lines of code) used to forecast the
 
 # 1. System Summary
 
-The system architecture summary is shown below.
+The simplified system architecture is shown below.
 
 ![System summary](https://user-images.githubusercontent.com/16655278/207883122-958ae94a-05ba-4fc3-98b4-eca545b0d71a.png)
 
